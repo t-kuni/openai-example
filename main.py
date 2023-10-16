@@ -6,7 +6,7 @@ load_dotenv()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-prompt = open("prompt.txt", "r").read()
+prompt = open("prompt.md", "r").read()
 
 print("[Q] " + prompt)
 
