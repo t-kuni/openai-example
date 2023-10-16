@@ -1,3 +1,7 @@
+# openai-example
+
+A simple tool to simply hit OpenAI's API.
+
 ```
 python3 -m venv venv
 source venv/bin/activate
